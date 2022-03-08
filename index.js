@@ -40,7 +40,7 @@ form.addEventListener('submit', function(e){
     You Lost: ${totalLost}
     `
 
-    
+    remainingTxt.innerHTML = `Your remaining chance: ${totalAttemps - attemps}`;
     
 })
 
