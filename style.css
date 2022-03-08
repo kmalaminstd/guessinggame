@@ -60,6 +60,11 @@ p{
     font-weight: bold;
 }
 
+.remainingText{
+    color: brown;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 478px){
     .container{
         width: 90%;
